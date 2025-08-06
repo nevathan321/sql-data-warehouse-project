@@ -1,6 +1,7 @@
 /* make sure to give server studio access to your file so it needs read access */
 /* turn into stored procedure */ 
 /* add print statements at each step for better debug-ability */ 
+/* wrap in TRY and CATCH statement */
 TRUNCATE TABLE bronze.crm_cust_info 
 
 BULK INSERT bronze.crm_cust_info
